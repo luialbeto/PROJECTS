@@ -1,2 +1,2 @@
 # projects
-Projetos desenvolvidos TRYBE
+Projetos desenvolvidos no período de estudos na TRYBE
