@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook - By Lucas and Luiz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+</head>
+<body>
+<div class="cabecalho">
+  <div class="top-bar">
+    <div id="facebook-logo">
+      <div id="imagem-logo">
+        <img class="facebook-logo" src="Image/logo-cortado.png" width="170px">
+      </div>
+    </div>
+    <div id="dados-entrada">
+      <form class="dados-entrada-class" action="" method="GET">
+        <div class="blocos-header">
+          <div>
+            <label class="label-header" class="label class=" id="user-email-phone-label" class="label">Email ou telefone</label>
+          </div>
+          <div>
+            <input class="input-inicial" id="user-email-phone"  required="required" type="text">
+          </div>
+        </div>
+        <div class="blocos-header">
+          <div>
+            <label class="label-header" id="" for="">Senha</label>
+          </div>
+          <div>
+            <input class="input-inicial" id="user-password" type="password" required="required">
+          </div>
+        </div>
+        <div class="blocos-header">
+          <div class="esconder" style="height: 20px;">
+          </div>
+          <button class="button-login" id="button-login">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="corpo">
+  <div class="corpo-pagina">
+    <div id="apresentacao">
+      <div class="texto-apresentacao">
+        O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+      </div>
+      <div id="imagem-apresentacao">
+        <img id="facebook-networking" src="Image/networking.png" width="537px">
+      </div>
+    </div>
+    <div id="formulario-cadastro">
+      <h1>Abra uma conta</h1>
+      <h2>É rápido e fácil.</h2>
+      <div id="formulario">
+        <form action="" method="GET">
+          <div class="nome-sobrenome">
+            <input class="input label-cadastro-1" type="text" placeholder="Nome" required="required">
+            <input class="input label-cadastro-1" type="text" placeholder="Sobrenome" required="required">
+          </div>
+          <div class="itens-sobrepostos">
+            <input class="input label-cadastro-2" type="text" placeholder="Celular ou email" required="required">
+            <input class="input label-cadastro-2" type="password" placeholder="Nova senha" required="required">
+            <label class="label" for="">Data de nascimento</label>
+            <input class="input label-cadastro-2" id="data-nasc" type="text" placeholder="dd/mm/aaaa">
+            <div  id="lista-genero" class="itens-sobrepostos">
+              <label class="label" for="">Gênero</label>
+              <div class="itens-em-linha">
+                <label class="radio" for="feminino">
+                  <input id="feminino" value="Feminino" type="radio" name="genero" checked>
+                  Feminino
+                </label>
+                <label class="radio" for="masculino">
+                  <input id="masculino" value="Masculino" type="radio" name="genero">
+                  Masculino
+                </label>
+                <label class="radio" for="personalizado">
+                  <input id="personalizado" value="Personalizado" type="radio" name="genero">
+                  Personalizado
+                </label>
+              </div>
+              </div>
+            <button class="button is-success button-cadastro" type="button" id="facebook-register">Cadastre-se</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div></div>
+</body>
+<script>
+  $(function() {
+      $( "#data-nasc" ).datepicker({
+        changeMonth:true,
+        changeYear: true
+      });
+  });
+</script>
+<script src="script.js"></script>
+</html>

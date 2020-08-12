@@ -1,0 +1,201 @@
+div {
+  box-sizing: border-box;
+  font-family: 'Freight Sans 700', Helvetica, Arial, sans-serif;
+  line-height: 1.34;
+}
+
+@media ( min-width : 600.01px ) {
+
+  .cabecalho {
+    align-items: center;
+    background-color: rgb(59, 89, 152);
+    display: flex;
+    height: 83px;
+    justify-content: center;
+    min-width: 980px;
+  }
+
+  .top-bar {
+    align-items: center;
+    background-color: rgb(59, 89, 152);
+    display: flex;
+    height: 83px;
+    justify-content: space-between;
+    width: 980px;
+  }
+
+  .dados-entrada-class {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.corpo {
+  background: linear-gradient(white, rgb(211, 216, 232));
+  color: #1c1e21;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  min-width: 980px;
+}
+
+.corpo-pagina {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-around;
+}
+
+.itens-sobrepostos {
+  display: flex;
+  flex-direction: column;
+}
+
+.itens-em-linha {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-cadastro {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px black solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 126%;
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px black;
+  width: 194px;
+}
+
+.button-login {
+  background-color: #4267b2;
+  border: 1px solid #ccd0d5;
+  border-color: #29487d;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.input-inicial {
+  background-color: white;
+  border: 1px solid #1d2a5b;
+  border-color: #1d2a5b;
+  border-radius: 0;
+  color: #1c1e21;
+  font-size: 12px;
+  margin: 0;
+  padding: 3px;
+  width: 142px;
+}
+
+.blocos-header {
+  margin: 0 7px;
+}
+
+.label-header {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 1px;
+  text-align: left;
+}
+
+.label-cadastro-1 {
+  height: 39px;
+  margin: 8px 0;
+  width: 190px;
+}
+
+.label-cadastro-2 {
+  height: 39px;
+  margin: 8px;
+  width: 399px;
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: rgb(29, 33, 41);
+  font-size: 19px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.texto-apresentacao {
+  color: rgb(14, 56, 95);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+@media ( max-width : 600px ) {
+
+  .corpo {
+    display: none;
+  }
+
+  .cabecalho {
+    align-items: center;
+    background-color: rgb(59, 89, 152);
+    display: flex;
+    flex-direction: column;
+    height: 83px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .top-bar {
+    align-items: center;
+    background-color: rgb(59, 89, 152);
+    display: flex;
+    flex-direction: column;
+    height: 83px;
+    justify-content: space-between;
+  }
+
+  .blocos-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .esconder {
+    display: none;
+  }
+}
