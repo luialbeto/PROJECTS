@@ -1,8 +1,9 @@
 # projects
-Projetos desenvolvidos no período de estudos na TRYBE
 
-front-end-agile: desenvolvido em grupo simulando scrum
+- Projetos desenvolvidos no período de estudos na TRYBE
 
-FACEBOOK-SIGNUP: desenvolvido em dupla simulando paǵina FACEBOOK
+- Front-end-agile: desenvolvido em grupo simulando scrum
 
-app_receitas: desenvolvido em equipe com metodologia ágil
+- FACEBOOK-SIGNUP: desenvolvido em dupla simulando paǵina FACEBOOK
+
+- app_receitas: desenvolvido em equipe com metodologia ágil
