@@ -1,6 +1,6 @@
 # projects
 
-- Projetos desenvolvidos no período de estudos na TRYBE
+## Projetos desenvolvidos no período de estudos na TRYBE
 
 - Front-end-agile: desenvolvido em grupo simulando scrum
 
